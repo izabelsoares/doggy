@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+    height: 6vh;
+    width: 10vw;
+    color: white;
+    background-color: #FEAF02;
+    text-transform: capitalize;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+header {
+    height: 15vh;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.header-conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+.logo-img {
+    padding: 1.5rem;
+    width: 90%
+}
+
+.header-conteiner ul {
+    width: 120%;
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: min(14px, 1.8vw)
+}
+@media(max-width: 864px) {
+    header {
+        height: 45vh;
+    }
+    .header-conteiner, .header-conteiner ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .phone-img {
+       display: none;
+    }
+}
+
+main {
+    height: 320vh;
+    width: 100%;
+    color: #6D4545;
+}
+
+.main-apresentation-conteiner {
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/Banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-apresentation-title h1, .main-apresentation-title h2 {
+    font-size: 2vw;
+}
+
+.main-apresentation-title h2 {
+    font-weight: lighter;
+}
+
+.main-apresentation-box {
+    padding: 3rem;
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lorem-part-two {
+    width: 73%;
+}
+
+.main-apresentation-box button {
+    width: 15vw;
+    text-transform: uppercase;
+    font-size: 1.7vw;
+    font-weight: lighter;
+}
+
+.dog-services {
+    height: 70vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000
+}
+
+.dog-card {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dog-card img {
+    width: 80%;
+}
+
+.doggy-house {
+    height: 70vh;
+    width: 100%;
+    background-image: url(assets/Banner\ why.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #373737
+}
+
+.doggy-box {
+    height: 70vh;
+    width: calc(100% - 20vw);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.doggy-reason-text {
+    height: 23vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.doggy-reason-text p {
+    width: 35vw;
+}
+
+.points-circle {
+    height: 2vh;
+    width: 13px;
+    background-color: #FEAF02;
+    border-radius: 50%;
+}
+
+.point-lorem {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5vw;
+}
+
+.costumer-conteiner {
+    height: 80vh;
+    width: 100%;
+    background-color:#FEAF02;
+    color: #000;
+}
+.costumer-conteiner h1 {
+    padding: 3rem;
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.costumer-video-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.costumer-card {
+    height: 50vh;
+    width: 36vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.costumer-img {
+    width: 35vw
+}
+
+footer {
+    height: 50vh;
+    width: 100%;
+    color: #fff;
+}
+
+.footer-conteiner {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3C4049
+}
+
+.footer-copyright {
+    height: 10vh;
+    width: 100%;
+    background-color:#2E2F34;
+}
+
+.copyright-box {
+    height: 10vh;
+    width: calc(100% - 20vw);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer-layout {
+    height: 8vh;
+    background-color: #222326;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout-box p {
+    opacity: 0.5
+}
+
+
